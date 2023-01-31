@@ -16,36 +16,30 @@
  }
 
  .container {
-     padding: 0rem 1rem;
+     padding: 1rem 0rem;
  }
 
  .container-center {
      max-width: 600px;
      margin: auto;
+  text-aling: center
  }
 
  .link {
      text-decoration: none;
-     padding: 0.5rem 1rem;
-     margin-top: 1rem;
-     margin-bottom: 1rem;
+     padding: 0.6rem 1.5rem;
+    
  }
 .link-primary{
-    /* margin-left: 2rem; */
-    margin-left: 45%;
     background-color:rgb(0, 234, 255) ;
     border: 2px solid;
     color: white;
-    padding: 0.5rem;
     border-radius: 1.5rem;
  }
 
- .btn1 {
-     margin-inline: 2rem;
-     margin-left: 35% ;
+ .link-secondary {
      border: 2px solid;
      color: white;
-     padding: 0.5rem;
      border-radius: 1.5rem;
      background-color: rgb(0, 234, 255);
  }
@@ -60,18 +54,6 @@
 
  }
 
- .btn3 {
-    display: inline-block;
-     width: 50%;
-     margin-left: 25%;
-     margin-top: 2rem;
-     border: 2px solid;
-     padding: 0.5rem;
-     border-radius: 1rem;
-     color: white;
-     background-color: rgb(0, 234, 255);
- }
-
  .list-non-bullet {
      list-style: none;
  }
@@ -82,11 +64,11 @@
  }
 
  .navigation {
-     max-width: 1100px;
      background-color: rgb(0, 234, 255);
      padding: 2rem;
      margin: auto;
      border-radius: 1rem;
+     color: white;
  }
 
  .navigation .nav-brand {
@@ -108,6 +90,7 @@
 
 .navigation .link-active {
      font-weight: bolder;
+     color: white;
 
 
  }
@@ -115,10 +98,11 @@
  .hero {
      padding: 2rem;
      padding-top: 5rem;
+     text-aling: center;
  }
 
  .hero .hero-img {
-     max-width: 500px;
+     max-width: 450px;
      display: block;
      margin: auto;
  }
@@ -131,11 +115,13 @@
 
  .hero .hero-heading .heading-inverted {
      color: blue;
+     text-aling: center;
  }
 
  .section {
      padding: 2rem;
-     margin-top: 20%;
+     margin: 2rem 0rem;
+     border-radius: 1rem;
  }
 
  .section h1 {
@@ -150,10 +136,10 @@
 
  .ow {
      background-color: rgb(208, 205, 205);
-     width: 80%;
      margin: auto;
      border-radius: 1.5rem;
      margin-bottom: 1rem;
+     text-aling: center;
  }
 
  .section a {
@@ -162,21 +148,17 @@
 
  .showcase-list {
      text-align: center;
-     margin:  auto; 
-     /* padding: 2rem; */
+     margin:  3rem auto; 
+     padding: 2rem; 
      border-radius: 1rem;
 
  }
-.showcase-list p{
-    margin-left: 20%;
-    margin-right: 20%;
-}
+
  .footer {
      background-color: rgb(0, 234, 255);
      padding: 2rem 2rem;
      text-align: center;
      color: white;
-     width: 80%;
      margin: auto;
      margin-top: 2rem;
      border-top-left-radius: 1rem;
